@@ -3,7 +3,7 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 
 export async function generateMetadata({ params }) {
-  const lang = params.lang;
+  const { lang } = await params;
 
   const title = {
     es: "Hire a Coop - Contratá cooperativas para tus necesidades tecnológicas",
@@ -132,10 +132,11 @@ export async function generateMetadata({ params }) {
   }
 }
 
-export default function RootLayout({ 
+export default async function RootLayout({
   children,
-  params: { lang }
+  params
 }) {
+  const { lang } = await params;
   const language = ["es", "en", "pt"].includes(lang) ? lang : "en";
 
   return (
