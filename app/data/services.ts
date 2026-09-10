@@ -1,13 +1,13 @@
 import { StaticImageData } from 'next/image';
 import { WithTranslation } from './common';
 
-import branding from '../../public/branding.png'
-import communityManager from '../../public/community-manager.png'
-import socialImpact from '../../public/social-impact.png'
-import softwareDevelopment from '../../public/software-development.png'
-import staffAugmentation from '../../public/staff-augmentation.png'
-import virtualQueue from '../../public/virtual-queue.png'
-import designUxui from '../../public/design-uxui.png'
+import branding from '../../public/images/optimized/branding.webp'
+import communityManager from '../../public/images/optimized/community-manager.webp'
+import socialImpact from '../../public/images/optimized/social-impact.webp'
+import softwareDevelopment from '../../public/images/optimized/software-development.webp'
+import staffAugmentation from '../../public/images/optimized/staff-augmentation.webp'
+import virtualQueue from '../../public/images/optimized/virtual-queue.webp'
+import designUxui from '../../public/images/optimized/design-uxui.webp'
 
 
 type Service = {

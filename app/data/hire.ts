@@ -1,6 +1,6 @@
-import Circle1Img from '../../public/circle1.jpeg';
-import Circle2Img from '../../public/circle2.jpeg';
-import Circle3Img from '../../public/circle3.jpeg';
+import Circle1Img from '../../public/images/optimized/circle1.webp';
+import Circle2Img from '../../public/images/optimized/circle2.webp';
+import Circle3Img from '../../public/images/optimized/circle3.webp';
 
 import { WithTranslation } from './common';
 import { StaticImageData } from 'next/image';

@@ -1,8 +1,8 @@
-import facttic from '../../public/FACTTIC.png';
-import digilabour from '../../public/Digitalabour.png';
-import WOIP from '../../public/WOIP.png';
-import TorontoUniversity from '../../public/TorontoUniversity.png';
-import SSHRC from '../../public/SSHRC.png';
+import facttic from '../../public/images/optimized/FACTTIC.webp';
+import digilabour from '../../public/images/optimized/Digitalabour.webp';
+import WOIP from '../../public/images/optimized/WOIP.webp';
+import TorontoUniversity from '../../public/images/optimized/TorontoUniversity.webp';
+import SSHRC from '../../public/images/optimized/SSHRC.webp';
 import { StaticImageData } from 'next/image';
 
 type Financier = {

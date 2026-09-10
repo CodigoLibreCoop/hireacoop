@@ -16,6 +16,7 @@ const FloatingCard = ({
 					fill
 					placeholder="blur"
 					sizes="(max-width: 768px) 100vw, 33vw"
+					unoptimized
 				/>
 			</div>
 

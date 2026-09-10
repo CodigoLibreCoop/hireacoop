@@ -11,6 +11,7 @@ export default function PartnerBadge({ image, alt = "", key }) {
           fill
           sizes="(max-width: 768px) 50vw, 25vw"
           className={styles.image}
+          unoptimized
         />
       </div>
     </div>

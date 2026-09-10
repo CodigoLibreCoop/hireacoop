@@ -16,20 +16,20 @@ import WideCard from "./components/wide-card";
 
 import Footer from "./components/footer";
 
-import HAC_1 from "../../public/HAC_1.jpg";
-import HAC_2 from "../../public/HAC_2.jpg";
-import WOIP_1 from "../../public/WOIP_1.jpg";
-import Icono1 from "../../public/Icono_1.jpg";
-import Icono2 from "../../public/Icono_2.jpg";
-import Icono3 from "../../public/Icono_3.jpg";
-import Icono4 from "../../public/Icono_4.jpg";
+import HAC_1 from "../../public/images/optimized/HAC_1.webp";
+import HAC_2 from "../../public/images/optimized/HAC_2.webp";
+import WOIP_1 from "../../public/images/optimized/WOIP_1.webp";
+import Icono1 from "../../public/images/optimized/Icono_1.webp";
+import Icono2 from "../../public/images/optimized/Icono_2.webp";
+import Icono3 from "../../public/images/optimized/Icono_3.webp";
+import Icono4 from "../../public/images/optimized/Icono_4.webp";
 import HireCard from "./components/hire-card";
 import { hireData } from "../data/hire";
 
 import { servicesData } from "../data/services";
 import { partnersData } from "../data/partners";
 
-import HeroImg from "../../public/hero.jpg";
+import HeroImg from "../../public/images/optimized/hero.webp";
 import { financierData } from "../data/financiers";
 import Link from "next/link";
 

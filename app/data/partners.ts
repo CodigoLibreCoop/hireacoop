@@ -1,10 +1,10 @@
 import CL from '../../public/CodigoLibre.svg';
-import Animus from '../../public/Animus.png';
+import Animus from '../../public/images/optimized/Animus.webp';
 import ALT from '../../public/ALT.svg';
-import SeñoCourier from '../../public/LOGOS_SENORITAS-06.png';
-import Marialab from '../../public/Marialab.png';
-import MTST from '../../public/MTST.png';
-import CentralSalta from '../../public/Central Salta.jpg';
+import SeñoCourier from '../../public/images/optimized/LOGOS_SENORITAS-06.webp';
+import Marialab from '../../public/images/optimized/Marialab.webp';
+import MTST from '../../public/images/optimized/MTST.webp';
+import CentralSalta from '../../public/images/optimized/Central Salta.webp';
 import { StaticImageData } from 'next/image';
 
 type Partner = {

@@ -5,7 +5,7 @@ import styles from './footer.module.scss';
 
 import HACLogo from '../../../public/HAC-fist-black.svg';
 import InstagramIcon from '../../../public/icons/instagram.svg';
-import AnimusLogo from '../../../public/Animus.png';
+import AnimusLogo from '../../../public/images/optimized/Animus.webp';
 import ALTLogo from '../../../public/ALT.svg';
 import CodigoLibreLogo from '../../../public/CodigoLibre.svg';
 
@@ -43,7 +43,7 @@ export default async function Footer({ dictionary }) {
         <div className={styles.logosWrapper}>
           <Link href="https://animus.coop/" target='_blank'>
             <div className={styles.logoContainer}>
-              <Image src={AnimusLogo} className={styles.logo} alt="Animus Logo" fill />
+              <Image src={AnimusLogo} className={styles.logo} alt="Animus Logo" fill unoptimized />
             </div>
           </Link>
 
