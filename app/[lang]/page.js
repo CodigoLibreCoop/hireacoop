@@ -34,8 +34,9 @@ import { financierData } from "../data/financiers";
 import Link from "next/link";
 
 export default async function Home({
-  params: { lang }
+  params
 }) {
+  const { lang } = await params;
   const dictionary = await getDictionary(lang);
 
   const hero = dictionary["hero"];

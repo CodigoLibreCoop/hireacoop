@@ -3,8 +3,9 @@ import DownloadHacFiles from '../components/download-hac-files';
 
 
 export default async function Collaborate({
-  params: { lang }
+  params
 }) {
+  const { lang } = await params;
   const dictionary = await getDictionary(lang);
 
 

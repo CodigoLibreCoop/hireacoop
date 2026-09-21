@@ -7,7 +7,7 @@ import HACLogo from '../../../public/HAC-fist-black.svg';
 import InstagramIcon from '../../../public/icons/instagram.svg';
 import AnimusLogo from '../../../public/images/optimized/Animus.webp';
 import ALTLogo from '../../../public/ALT.svg';
-import CodigoLibreLogo from '../../../public/CodigoLibre.svg';
+import CodigoLibreLogo from '../../../public/CodigoLibre.png';
 
 export default async function Footer({ dictionary }) {
   return (

@@ -1,4 +1,4 @@
-import CL from '../../public/CodigoLibre.svg';
+import CL from '../../public/CodigoLibre.png';
 import Animus from '../../public/images/optimized/Animus.webp';
 import ALT from '../../public/ALT.svg';
 import SeñoCourier from '../../public/images/optimized/LOGOS_SENORITAS-06.webp';
