@@ -1,6 +1,7 @@
 services:
   hireacoop:
     build: .
+    container_name: hireacoop
     ports:
       - "3000:3000"
     environment:
@@ -11,3 +12,9 @@ services:
       - RECAPTCHA_SECRET_KEY=${RECAPTCHA_SECRET_KEY}
       - NEXT_PUBLIC_RECAPTCHA_SITE_KEY=${NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
     restart: unless-stopped
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
